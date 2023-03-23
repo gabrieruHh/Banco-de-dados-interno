@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--                                    EDITTEXTS                                        -->
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="40dp"
+                android:hint="Id"
+                android:inputType="number"
+                android:paddingStart="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp"
+                android:hint="Nome"
+                android:inputType="text"
+                android:paddingStart="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:paddingStart="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp"
+                android:hint="Telefone"
+                android:inputType="phone"
+                android:paddingStart="10dp" />
+
+            <!--                                      BUTTONS                                          -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_save"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_view"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</layout>
